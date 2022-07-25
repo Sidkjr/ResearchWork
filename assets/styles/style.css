@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
+
+* {
+    display: flexbox;
+}
+
+span {
+    color: crimson;
+}
+.head {
+    background-color: rgb(20, 5, 5);
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    position: relative;
+}
+
+.head nav {
+    display: flex;
+    font-size: 20px;
+    justify-content: end;
+    justify-items: normal;
+}
+
+.head nav a {
+    padding-top: 15px;
+    color: antiquewhite;
+    font-family: 'Nunito', sans-serif;
+    margin-right: 20px;
+    
+}
+
+#travellr {
+    margin-left: 10px;
+    margin-right: 82rem;
+    padding-top: 10px;
+    font-size: xx-large;
+}

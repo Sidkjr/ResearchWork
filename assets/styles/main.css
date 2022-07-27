@@ -22,13 +22,9 @@ body, html{
     align-items: center;
     /* background-color: #ddd; */
 }
-.nav .logo{
-    text-decoration: none;
-    font-weight: 700;
-    font-size: 2em;
-    text-transform: uppercase;
-    letter-spacing: 2px;
-    color: black
+.nav .logo img{
+   height: 59px;
+    width: 199px;
 }
 
 .nav ul{

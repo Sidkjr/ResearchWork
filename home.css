@@ -1,0 +1,105 @@
+*{
+    box-sizing: border-box;
+}
+
+
+
+header{
+    font-size: 2em;
+}
+
+.container{
+    display: block;
+    display: flex;
+    justify-content: space-evenly;
+}
+.capetown{
+    position: relative;
+}
+
+.capetown img{
+    display: block;
+    width: 400px;
+    height: 600px;
+    
+}
+
+.capetowndesc{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 0;
+    background: rgba(255, 255, 255, 0.2);
+    width: 400px;
+    opacity: 0;
+    transition: 0.9s ease;
+    padding: 10px;
+    text-align: center;
+    font-size: 2em;
+
+
+}
+
+.capetown:hover .capetowndesc{
+    height: 100%;
+    opacity: 0.9;
+}
+
+.CanoCristales{
+    position: relative;
+}
+
+.CanoCristales img{
+    width: 400px;
+    height: 600px;
+    
+}
+
+.CanoCristalesdesc{
+    position: absolute;
+    bottom: 0;
+    height: 0;
+    background: rgba(255, 255, 255, 0.2);
+    width: 400px;
+    opacity: 0;
+    transition: 0.5s ease;
+    padding: 10px;
+    text-align: center;
+    font-size: 2em;
+
+
+}
+
+.CanoCristales:hover .CanoCristalesdesc{
+    height: 100%;
+    opacity: 0.9;
+}
+
+.Venice{
+    position: relative;
+}
+
+.Venice img{
+    width: 400px;
+    height: 600px;
+    
+}
+
+.Venicedesc{
+    position: absolute;
+    bottom: 0;
+    background: rgba(255, 255, 255, 0.2);
+    width: 400px;
+    opacity: 0;
+    transition: 0.5s ease;
+    padding: 10px;
+    text-align: center;
+    font-size: 2em;
+
+
+}
+
+.Venice:hover .Venicedesc{
+    opacity: 0.9;
+}

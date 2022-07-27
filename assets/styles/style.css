@@ -35,3 +35,7 @@ span {
     padding-top: 10px;
     font-size: xx-large;
 }
+
+#logo {
+    background-color: transparent;
+}

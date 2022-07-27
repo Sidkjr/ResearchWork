@@ -15,8 +15,7 @@ body, html{
     position: absolute;
     top: 0;
     left: 0;
-    /* width: 1317px; */
-    width: 100%;
+    width: 1317px;
     padding: 30px 100px;
     display: flex;
     justify-content: space-between;
@@ -60,11 +59,11 @@ body, html{
 
 }
 .bg1{
-    background-image: url('img/bg3.jpeg');
+    background-image: url('/home/sid/Desktop/Siddhant/SecondYear/Wp/Unit1/Rw/assets/images/bg3.jpeg');
     min-height: 100%;
 }
 .bg2{
-    background-image: url('img/bg4.jpeg');
+    background-image: url('/home/sid/Desktop/Siddhant/SecondYear/Wp/Unit1/Rw/assets/images/bg4.jpeg');
     min-height: 100%;
 }
 

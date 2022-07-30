@@ -41,7 +41,7 @@ body, html{
 
 .nav ul li{
    
-    margin-left: 50px;
+    margin-left: 20px;
     list-style-type: none;   
 }
 
@@ -50,9 +50,50 @@ body, html{
     color: white;
     font-size: 23px;
 }
+
+.navig:hover{
+
+    background: black;
+    border-radius: 5px;
+    padding: 8px;
+
+}
 .nav ul li a span{
     color: aqua;
 }
+
+.home-menu {
+    display: none; 
+}
+
+.nav ul li:hover .home-menu {
+    display: block;
+    position: absolute;
+    background: rgba(46, 51, 50, 0.466);
+    margin-top: 7px;
+}
+
+.nav ul li:hover .home-menu ul {
+    display: block;
+    margin: 10px;
+
+}
+
+.nav ul li:hover .home-menu ul li{
+    width: 150px;
+    padding: 10px;
+    border-bottom: 1px dotted #fff;
+    background: transparent;
+    border-radius: 0;
+    text-align: left;
+}
+
+.nav ul li:hover .home-menu ul li:hover{
+    background: black;
+    border-radius: 5px;
+    padding: 8px;
+}
+
 .bg1, .bg2{
     position: relative;
     background-position: center;

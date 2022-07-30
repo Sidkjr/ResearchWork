@@ -1,11 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
+
 *{
     margin: 0;
     padding: 0;
+
 }
 body, html{
     height: 100%;
     font-size: 16px;
-    font-family: "Lato";
+    font-family: "Nunito";
     font-weight: 400;
     line-height: 1.8em;
     color: #666;
@@ -20,6 +23,7 @@ body, html{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    background-color: rgba(151, 128, 128, 0.26);
     /* background-color: #ddd; */
 }
 .nav .logo img{

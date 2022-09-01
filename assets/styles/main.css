@@ -28,8 +28,9 @@ body, html{
     /* background-color: #ddd; */
 }
 .nav .logo img{
-   height: 59px;
+   height: 52px;
    width: 199px;
+   padding: 0;
 }
 
 .nav ul{

@@ -120,6 +120,14 @@ body, html{
     color: #666;
 }
 
+.placecontainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+
 .dark{
     text-align: center;
     padding: 20px;

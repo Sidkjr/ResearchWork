@@ -150,6 +150,22 @@ body, html{
     color: aqua;
 }
 
+.discount {
+    text-align: left;
+    margin-left: 2px;
+    color: red;
+}
+
+.discount-price {
+    text-align: right;
+    font-size: x-large;
+    font-weight: bolder;
+    color: #000000;
+    text-transform: uppercase;
+    font-weight: lighter;
+}
+
+
 .dark{
     text-align: center;
     padding: 20px;

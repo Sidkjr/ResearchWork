@@ -135,10 +135,18 @@ body, html{
     align-items: center;
 }
 
+.placecontainer h3 {
+    color: #000000;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    font-weight: lighter;
+}
+
 .mald, .thai, .bali {
     display: flex;
     flex-direction: column;
     background-color: #ffffff;
+    padding: 10px;
     color: aqua;
 }
 

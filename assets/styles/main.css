@@ -116,8 +116,16 @@ body, html{
 .light{
     text-align: center;
     padding: 20px;
-    background-color: #f4f4f4;
+    background-color: #000000;
+    font-family: "Nunito";
     color: #666;
+}
+
+.light h1 {
+    color: white;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    font-weight: lighter;
 }
 
 .placecontainer {
@@ -127,6 +135,12 @@ body, html{
     align-items: center;
 }
 
+.mald, .thai, .bali {
+    display: flex;
+    flex-direction: column;
+    background-color: #ffffff;
+    color: aqua;
+}
 
 .dark{
     text-align: center;

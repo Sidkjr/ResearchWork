@@ -116,9 +116,14 @@ body, html{
 .light{
     text-align: center;
     padding: 20px;
-    background-color: #000000;
+    background: rgba(46, 51, 50, 0.466);
+    background-image: url("https://live-production.wcms.abc-cdn.net.au/322b36b1e1f99ff89977c7cca19280b0?impolicy=wcms_crop_resize&cropH=1125&cropW=1998&xPos=1&yPos=0&width=862&height=485");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
     font-family: "Nunito";
     color: #666;
+    border: 2px solid #000000;
 }
 
 .light h1 {

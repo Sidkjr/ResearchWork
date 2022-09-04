@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster+Two:ital@1&display=swap');
 
 *{
     margin: 0;
@@ -16,14 +17,16 @@ body, html{
 }
 
 .nav{
-    position: relative;
+    position: fixed;
     width: 100%;
     padding: 2% 0%;
     display: flex;
     align-items: center;
-    background-color: rgba(46, 51, 50, 0.466);
+    background-color: black;
     border: 1px solid black;
+    transform-style: preserve-3d;
     /* background-color: #ddd; */
+    z-index: 1;
 }
 .nav .logo {
     margin-left: 1%;
@@ -113,6 +116,8 @@ body, html{
     background-image: url('https://wallpapershome.com/images/wallpapers/mountains-5120x2880-macos-4k-5k-sierra-sky-android-wallpaper-11473.jpg');
     min-height: 100%;
 }
+
+
 .bg2{
     background-image: url('https://wallpaper.dog/large/10792515.jpg');
     min-height: 100%;
@@ -142,6 +147,7 @@ body, html{
     flex-direction: row;
     justify-content: space-evenly;
     align-items: center;
+    
 }
 
 .placecontainer h3 {
@@ -158,8 +164,11 @@ body, html{
     padding: 10px;
     margin-bottom: 20px;
     color: aqua;
+    
 }
-
+.mald a, .thai a, .bali a {
+    text-decoration: none;
+}
 .mald:hover, .thai:hover, .bali:hover {
     transform: scale(1.1);
     transition: 0.5;
@@ -180,12 +189,58 @@ body, html{
     font-weight: lighter;
 }
 
+.vendeets {
+    background: url('https://wallpaperaccess.com/full/115099.jpg')  rgba(0, 0, 0, 0.7);
+    min-height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.thaideets {
+    background: url('https://i.pinimg.com/originals/28/d3/19/28d319c48dd6ac47b17edc83a79133a5.jpg')  rgba(0, 0, 0, 0.7);
+    min-height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: 2px solid black;
+}
+.romedeets {
+    background: url('https://wallpaperaccess.com/full/129471.jpg')  rgba(0, 0, 0, 0.7);
+    min-height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.baldeets {
+    background: url('https://wallpaperaccess.com/full/5923597.jpg')  rgba(0, 0, 0, 0.7);
+    min-height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: 2px solid black;
+}
 .maldeets {
     background: url('https://images5.alphacoders.com/361/361643.jpg')  rgba(0, 0, 0, 0.7);
     min-height: 100%;
     background-repeat: no-repeat;
     background-size: cover;
+    border: 2px solid black;
+
 }
+
+#mal-details {
+    background-color: white;
+    margin-top: 25%;
+    display: inline-block;
+    margin-left: 5%;
+    text-align: center;
+    padding: 4%;
+}
+
+#mal-details h3 {
+    font-size: 43px;
+    font-family: 'Lobster Two', cursive;
+}
+
 .dark{
     text-align: center;
     padding: 20px;

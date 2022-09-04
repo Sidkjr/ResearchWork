@@ -1,0 +1,1 @@
+const faders = document.querySelector();

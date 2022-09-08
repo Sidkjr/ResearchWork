@@ -113,33 +113,33 @@ body, html{
 
 }
 .bg1{
-    background-image: url('img/europe.jpg');
+    background-image: url('images/europe.jpg');
     min-height: 100%;
 }
 
 
 .bg2{
-    background-image: url('img/asia.jpg');
+    background-image: url('images/asia.jpg');
     min-height: 100%;
 }
 
 .bg3{
-    background-image: url('img/africa.jpg');
+    background-image: url('images/africa.jpg');
     min-height: 100%;
 }
 
 .bg4{
-    background-image: url('img/australia.jpg');
+    background-image: url('images/australia.jpg');
     min-height: 100%;
 }
 
 .bg5{
-    background-image: url('img/northamerica.jpg');
+    background-image: url('images/northamerica.jpg');
     min-height: 100%;
 }
 
 .bg6{
-    background-image: url('img/southamerica.jpg');
+    background-image: url('images/southamerica.jpg');
     min-height: 100%;
 }
 

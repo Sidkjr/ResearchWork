@@ -1,0 +1,254 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster+Two:ital@1&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+
+}
+body, html{
+    height: 100%;
+    font-size: 16px;
+    font-family: "Nunito";
+    font-weight: 400;
+    line-height: 1.8em;
+    color: #666;
+    scroll-behavior: smooth;
+}
+
+.nav{
+    position: fixed;
+    width: 100%;
+    padding: 2% 0%;
+    display: flex;
+    align-items: center;
+    background-color: black;
+    border: 1px solid black;
+    transform-style: preserve-3d;
+    /* background-color: #ddd; */
+    z-index: 1;
+}
+.nav .logo {
+    margin-left: 1%;
+}
+.nav ul {
+    margin-left: auto;
+    margin-right: 2%;
+}
+.nav .logo img{
+   height: 52px;
+   width: 199px;
+   padding: 0;
+}
+
+.nav ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+}
+
+.nav ul li{
+   
+    margin-left: 20px;
+    list-style-type: none;   
+}
+
+.nav ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 23px;
+}
+
+.navig:hover{
+
+    background: black;
+    border-radius: 5px;
+    padding: 8px;
+
+}
+.nav ul li a span{
+    color: aqua;
+}
+
+.home-menu {
+    display: none; 
+}
+
+.nav ul li:hover .home-menu {
+    display: block;
+    position: absolute;
+    background: rgba(46, 51, 50, 0.466);
+    margin-top: 7px;
+}
+
+.nav ul li:hover .home-menu ul {
+    display: block;
+    margin: 10px;
+
+}
+
+.nav ul li:hover .home-menu ul li{
+    width: 150px;
+    padding: 10px;
+    border-bottom: 1px dotted #fff;
+    background: transparent;
+    border-radius: 0;
+    text-align: left;
+}
+
+.nav ul li:hover .home-menu ul li:hover{
+    background: black;
+    border-radius: 5px;
+    padding: 8px;
+}
+
+.bg1, .bg2, .bg3, .bg4, .bg5, .bg6{
+    position: relative;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    width: 100%;
+
+}
+.bg1{
+    background-image: url('img/europe.jpg');
+    min-height: 100%;
+}
+
+
+.bg2{
+    background-image: url('img/asia.jpg');
+    min-height: 100%;
+}
+
+.bg3{
+    background-image: url('img/africa.jpg');
+    min-height: 100%;
+}
+
+.bg4{
+    background-image: url('img/australia.jpg');
+    min-height: 100%;
+}
+
+.bg5{
+    background-image: url('img/northamerica.jpg');
+    min-height: 100%;
+}
+
+.bg6{
+    background-image: url('img/southamerica.jpg');
+    min-height: 100%;
+}
+
+.light{
+    text-align: center;
+    padding: 20px;
+    background: url("https://live-production.wcms.abc-cdn.net.au/322b36b1e1f99ff89977c7cca19280b0?impolicy=wcms_crop_resize&cropH=1125&cropW=1998&xPos=1&yPos=0&width=862&height=485") rgba(0, 0, 0, 0.7);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    font-family: "Nunito";
+    color: #666;
+    border: 2px solid #000000;
+}
+
+.light h1 {
+    color: white;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    font-weight: lighter;
+}
+
+.placecontainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    
+}
+
+.placecontainer h3 {
+    color: #000000;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    font-weight: lighter;
+}
+
+.mald, .thai, .bali {
+    display: flex;
+    flex-direction: column;
+    background-color: #ffffff;
+    padding: 10px;
+    margin-bottom: 20px;
+    color: aqua;
+    
+}
+.mald a, .thai a, .bali a {
+    text-decoration: none;
+}
+.mald:hover, .thai:hover, .bali:hover {
+    transform: scale(1.1);
+    transition: 0.5;
+}
+
+.discount {
+    text-align: left;
+    margin-left: 2px;
+    color: red;
+}
+
+.discount-price {
+    text-align: right;
+    font-size: x-large;
+    font-weight: bolder;
+    color: #000000;
+    text-transform: uppercase;
+    font-weight: lighter;
+}
+
+
+
+.dark{
+    text-align: center;
+    padding: 20px;
+    background-color: #282e34;
+    color: #ddd;
+}
+
+.text1{
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    color: black;
+    font-size: 27px;
+    letter-spacing: 8px;
+    text-transform: uppercase; 
+}
+.text1 .border{
+    color: #fff;
+    padding: 20px;
+}
+.text2{
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    color: black;
+    font-size: 27px;
+    letter-spacing: 8px;
+    text-transform: uppercase;
+}
+
+.text2 .border{
+    background-color: transparent;
+    color: #fff;
+    padding: 20px;
+}
+
+.in-border {
+    color: aqua;
+}

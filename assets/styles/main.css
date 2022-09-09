@@ -103,7 +103,7 @@ body, html{
     padding: 8px;
 }
 
-.bg1, .bg2, .maldeets{
+#bg1, .bg2, .maldeets{
     position: relative;
     background-position: center;
     background-size: cover;
@@ -112,7 +112,7 @@ body, html{
     width: 100%;
 
 }
-.bg1{
+#bg1{
     background-image: url('https://wallpapershome.com/images/wallpapers/mountains-5120x2880-macos-4k-5k-sierra-sky-android-wallpaper-11473.jpg');
     min-height: 100%;
 }

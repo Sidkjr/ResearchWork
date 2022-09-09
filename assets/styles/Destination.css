@@ -113,37 +113,92 @@ body, html{
 
 }
 .bg1{
-    background-image: url('images/europe.jpg');
+    background-image: url('/home/sid/Desktop/Siddhant/SecondYear/Wp/Unit1/Rw/assets/images/europe.jpg');
     min-height: 100%;
 }
 
 
 .bg2{
-    background-image: url('images/asia.jpg');
+    background-image: url('/home/sid/Desktop/Siddhant/SecondYear/Wp/Unit1/Rw/assets/images/asia.jpg');
     min-height: 100%;
 }
 
 .bg3{
-    background-image: url('images/africa.jpg');
+    background-image: url('/home/sid/Desktop/Siddhant/SecondYear/Wp/Unit1/Rw/assets/images/africa.jpg');
     min-height: 100%;
 }
 
 .bg4{
-    background-image: url('images/australia.jpg');
+    background-image: url('/home/sid/Desktop/Siddhant/SecondYear/Wp/Unit1/Rw/assets/images/australia.jpg');
     min-height: 100%;
 }
 
 .bg5{
-    background-image: url('images/northamerica.jpg');
+    background-image: url('/home/sid/Desktop/Siddhant/SecondYear/Wp/Unit1/Rw/assets/images/northamerica.jpg');
     min-height: 100%;
 }
 
 .bg6{
-    background-image: url('images/southamerica.jpg');
+    background-image: url('/home/sid/Desktop/Siddhant/SecondYear/Wp/Unit1/Rw/assets/images/southamerica.jpg');
     min-height: 100%;
 }
 
-.light{
+.light1{
+    text-align: center;
+    padding: 20px;
+    background: url("/home/sid/Desktop/Siddhant/SecondYear/Wp/Unit1/Rw/assets/images/bg1destination.jpg") rgba(0, 0, 0, 0.7);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    font-family: "Nunito";
+    color: #666;
+    border: 2px solid #000000;
+}
+.light2{
+    text-align: center;
+    padding: 20px;
+    background: url("https://live-production.wcms.abc-cdn.net.au/322b36b1e1f99ff89977c7cca19280b0?impolicy=wcms_crop_resize&cropH=1125&cropW=1998&xPos=1&yPos=0&width=862&height=485") rgba(0, 0, 0, 0.7);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    font-family: "Nunito";
+    color: #666;
+    border: 2px solid #000000;
+}
+.light3{
+    text-align: center;
+    padding: 20px;
+    background: url("https://live-production.wcms.abc-cdn.net.au/322b36b1e1f99ff89977c7cca19280b0?impolicy=wcms_crop_resize&cropH=1125&cropW=1998&xPos=1&yPos=0&width=862&height=485") rgba(0, 0, 0, 0.7);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    font-family: "Nunito";
+    color: #666;
+    border: 2px solid #000000;
+}
+.light4{
+    text-align: center;
+    padding: 20px;
+    background: url("https://live-production.wcms.abc-cdn.net.au/322b36b1e1f99ff89977c7cca19280b0?impolicy=wcms_crop_resize&cropH=1125&cropW=1998&xPos=1&yPos=0&width=862&height=485") rgba(0, 0, 0, 0.7);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    font-family: "Nunito";
+    color: #666;
+    border: 2px solid #000000;
+}
+.light5{
+    text-align: center;
+    padding: 20px;
+    background: url("https://live-production.wcms.abc-cdn.net.au/322b36b1e1f99ff89977c7cca19280b0?impolicy=wcms_crop_resize&cropH=1125&cropW=1998&xPos=1&yPos=0&width=862&height=485") rgba(0, 0, 0, 0.7);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    font-family: "Nunito";
+    color: #666;
+    border: 2px solid #000000;
+}
+.light6{
     text-align: center;
     padding: 20px;
     background: url("https://live-production.wcms.abc-cdn.net.au/322b36b1e1f99ff89977c7cca19280b0?impolicy=wcms_crop_resize&cropH=1125&cropW=1998&xPos=1&yPos=0&width=862&height=485") rgba(0, 0, 0, 0.7);
@@ -155,7 +210,7 @@ body, html{
     border: 2px solid #000000;
 }
 
-.light h1 {
+.light1 h1 {
     color: white;
     letter-spacing: 5px;
     text-transform: uppercase;

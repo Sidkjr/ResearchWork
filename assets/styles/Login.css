@@ -1,192 +1,204 @@
-@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Lobster+Two:ital@1&display=swap');
+/* ===== Google Font Import - Poformsins ===== */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
 
 *{
     margin: 0;
     padding: 0;
-
-}
-body, html{
-    height: 100%;
-    font-size: 16px;
-    font-family: "Nunito";
-    font-weight: 400;
-    line-height: 1.8em;
-    color: #666;
-    scroll-behavior: smooth;
-}
-
-.nav{
-    position: fixed;
-    width: 100%;
-    padding: 2% 0%;
-    display: flex;
-    align-items: center;
-    background-color: black;
-    border: 1px solid black;
-    transform-style: preserve-3d;
-    /* background-color: #ddd; */
-    z-index: 1;
-}
-.nav .logo {
-    margin-left: 1%;
-}
-.nav ul {
-    margin-left: auto;
-    margin-right: 2%;
-}
-.nav .logo img{
-   height: 52px;
-   width: 199px;
-   padding: 0;
-}
-
-.nav ul{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  
-}
-
-.nav ul li{
-   
-    margin-left: 20px;
-    list-style-type: none;   
-}
-
-.nav ul li a{
-    text-decoration: none;
-    color: white;
-    font-size: 23px;
-}
-
-.navig:hover{
-
-    background: black;
-    border-radius: 5px;
-    padding: 8px;
-
-}
-.nav ul li a span{
-    color: aqua;
-}
-
-.home-menu {
-    display: none; 
-}
-
-.nav ul li:hover .home-menu {
-    display: block;
-    position: absolute;
-    background: rgba(46, 51, 50, 0.466);
-    margin-top: 7px;
-}
-
-.nav ul li:hover .home-menu ul {
-    display: block;
-    margin: 10px;
-
-}
-
-.nav ul li:hover .home-menu ul li{
-    width: 150px;
-    padding: 10px;
-    border-bottom: 1px dotted #fff;
-    background: transparent;
-    border-radius: 0;
-    text-align: left;
-}
-
-.nav ul li:hover .home-menu ul li:hover{
-    background: black;
-    border-radius: 5px;
-    padding: 8px;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
 }
 
 body{
-    background-image:url('/home/sid/Desktop/Siddhant/SecondYear/Wp/Unit1/Rw/assets/images/mountainsandfog.jpg');
-    background-repeat: no-repeat;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: url("assets/videos/backgroundvid.mp4");
+
+}
+
+.bgvid {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+
+}
+.nav {
+    margin-bottom: 45%;
+}
+.container{
     position: relative;
-    background-position: center;
-    background-size: cover;
-    background-attachment: fixed;
+    max-width: 430px;
     width: 100%;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    margin: 0 20px;
 }
 
-.login{
+.container .forms{
+    display: flex;
+    align-items: center;
+    height: 440px;
+    width: 200%;
+    transition: height 0.2s ease;
+}
+
+
+.container .form{
+    width: 50%;
+    padding: 30px;
+    background-color: #fff;
+    transition: margin-left 0.18s ease;
+}
+
+.container.active .login{
+    margin-left: -50%;
+    opacity: 0;
+    transition: margin-left 0.18s ease, opacity 0.15s ease;
+}
+
+.container .signup{
+    opacity: 0;
+    transition: opacity 0.09s ease;
+}
+.container.active .signup{
+    opacity: 1;
+    transition: opacity 0.2s ease;
+}
+
+.container.active .forms{
+    height: 600px;
+}
+.container .form .title{
+    position: relative;
+    font-size: 27px;
+    font-weight: 600;
+}
+
+.form .title::before{
+    content: '';
     position: absolute;
-    top: 40%;
-    width: 350px;
-    height: 260px;
+    left: 0;
+    bottom: 0;
+    height: 3px;
+    width: 30px;
+    background-color: #4070f4;
+    border-radius: 25px;
+}
+
+.form .input-field{
+    position: relative;
+    height: 50px;
+    width: 100%;
+    margin-top: 30px;
+}
+
+.input-field input{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    padding: 0 35px;
+    border: none;
+    outline: none;
+    font-size: 16px;
+    border-bottom: 2px solid #ccc;
+    border-top: 2px solid transparent;
+    transition: all 0.2s ease;
+}
+
+.input-field input:is(:focus, :valid){
+    border-bottom-color: #4070f4;
+}
+
+.input-field i{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    color: #999;
+    font-size: 23px;
+    transition: all 0.2s ease;
+}
+
+.input-field input:is(:focus, :valid) ~ i{
+    color: #4070f4;
+}
+
+.input-field i.icon{
+    left: 0;
+}
+.input-field i.showHidePw{
+    right: 0;
+    cursor: pointer;
+    padding: 10px;
+}
+
+.form .checkbox-text{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.checkbox-text .checkbox-content{
+    display: flex;
+    align-items: center;
+}
+
+.checkbox-content input{
+    margin: 0 8px -2px 4px;
+    accent-color: #4070f4;
+}
+
+.form .text{
+    color: #333;
+    font-size: 14px;
+}
+
+.form a.text{
+    color: #4070f4;
+    text-decoration: none;
+}
+.form a:hover{
+    text-decoration: underline;
+}
+
+.form .button{
+    margin-top: 35px;
+}
+
+.form .button input{
+    border: none;
+    color: #fff;
+    font-size: 17px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    border-radius: 6px;
+    background-color: #4070f4;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.button input:hover{
+    background-color: #265df2;
+}
+
+.form .login-signup{
+    margin-top: 30px;
     text-align: center;
-    color: white;
-    letter-spacing: 3px;
-    text-transform: uppercase; 
-    background-color: rgba(0, 0, 0, 0.6);
-    margin-left: 40%;
-   
 }
 
-.login .header{
-    font-size: 30px;
-    margin: 20px;
+@media (min-aspect-ratio: 16/9) {
+    .bgvid {
+        width: 100%;
+        height: auto;
+    }
 }
-
-#n{
-    color: aqua;
-    font-size: 30px;
-    margin-left: -1px;
-   
-}
-
-#l, #d{
-    color: aqua;
-}
-
-.login span, #l, #d{
-    font-size: 18px;
-    /* margin: 10px; */
-    /* text-align: left; */
-}
-
-.login input{
-    background: rgba(0, 0, 0, 0.2);
-    color: white;
-    font-size: 15px;
-    border-radius: 25px;
-    height: 30px;
-    width: 225px;
-    padding-left: 10px;
-    
-}
-
-button{
-    position: relative;
-    background: rgba(46, 51, 50, 0.466);
-    color: white;
-    font-size: 15px;
-    height: 28px;
-    width: 56px;
-    margin: 10px;
-    border-radius: 25px;
-
-}
-
-button:hover{
-    background: rgba(46, 51, 50, 0.466);
-    background: black;
-    height: 34px;
-    width: 62px;
-}
-
-.bi{
-    position: absolute;
-    color: white;
-    margin: -25px;
-    margin-top: 3px;
-}
-
-.password{
-    position: relative;
-    margin-right: -10px;
+@media (max-aspect-ratio: 16/9) {
+    .bgvid {
+        width: auto;
+        height: 100%;
+    }
 }

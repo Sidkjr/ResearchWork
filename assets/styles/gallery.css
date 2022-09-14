@@ -1,0 +1,107 @@
+.slide-container {
+    width: 600px;
+    height: 366px;
+    margin-left: auto;
+    margin-right: auto;
+    overflow: hidden;
+    text-align: center;
+    border: 12px solid aqua;
+}
+.mal-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 600px;
+    height: 366px;
+    position: relative;
+    transition: left 2s;
+    -webkit-transition: left 2s;
+    -o-transition: left 2s;
+}
+.mal-slider-image {
+    float: left;
+    margin: 0px;
+    padding: 0px;
+}
+.button-container {
+    top: -30px;
+    position: relative;
+}
+.mal-slider-button {
+    display: inline-block;
+    height: 20px;
+    width: 20px;
+    border-radius: 10px;
+    background-color: white;
+    border: 3px solid grey;
+}
+.mal-slider-button:hover {
+    background-color: aqua;
+}
+#mal-slider-image-1:target ~ .mal-container {
+    left: 0px;
+}
+#mal-slider-image-2:target ~ .mal-container {
+    left: -100%;
+}
+#mal-slider-image-3:target ~ .mal-container {
+    left: -200%;
+}
+#mal-slider-image-4:target ~ .mal-container {
+    left: -300%;
+}
+#mal-slider-image-5:target ~ .mal-container {
+    left: -400%;
+}
+.thai-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 600px;
+    height: 366px;
+    position: relative;
+    transition: left 2s;
+    -webkit-transition: left 2s;
+    -o-transition: left 2s;
+}
+.thai-slider-image {
+    float: left;
+    margin: 0px;
+    padding: 0px;
+}
+.button-container {
+    top: -30px;
+    position: relative;
+}
+.thai-slider-button {
+    display: inline-block;
+    height: 20px;
+    width: 20px;
+    border-radius: 10px;
+    background-color: white;
+    border: 1px solid grey;
+    
+}
+
+.thai-slider-button:nth-child(
+) {
+    justify-content: space-between;
+}
+.thai-slider-button:hover {
+    background-color: aqua;
+}
+#thai-slider-image-1:target ~ .thai-container {
+    left: 0px;
+}
+#thai-slider-image-2:target ~ .thai-container {
+    left: -100%;
+}
+#thai-slider-image-3:target ~ .thai-container {
+    left: -200%;
+}
+#thai-slider-image-4:target ~ .thai-container {
+    left: -300%;
+}
+#thai-slider-image-5:target ~ .thai-container {
+    left: -400%;
+}

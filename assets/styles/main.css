@@ -111,9 +111,37 @@ body, html{
     background-attachment: fixed;
     width: 100%;
 
+
 }
+
+.sepword {
+    color: #fff;
+}
+
+.btn1{
+    position: absolute;
+    top: 50%;
+    text-align: center;
+    color: white;
+    font-size: 27px;
+    letter-spacing: 7px;
+    text-transform: uppercase;
+    background-color: black;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    align-items: center;
+    top: 48.05%;
+    margin-left: 42%;
+    padding-left: 15px;
+    padding-right: 5px;
+    border-top: 7px solid #000000;
+    border-bottom: 7px solid #000000;
+    border-left: 7px solid #000000;
+    border-right: 7px solid #000000;
+}
+
 #bg1{
-    background-image: url('https://wallpapershome.com/images/wallpapers/mountains-5120x2880-macos-4k-5k-sierra-sky-android-wallpaper-11473.jpg');
+    
     min-height: 100%;
 }
 
@@ -250,13 +278,26 @@ body, html{
 
 .text1{
     position: absolute;
-    top: 50%;
-    width: 100%;
+    display: block;
+    align-items: center;
+    top: 49%;
+    margin-left: 42.5%;
     text-align: center;
     color: black;
     font-size: 27px;
-    letter-spacing: 8px;
+    letter-spacing: 7.5px;
     text-transform: uppercase; 
+    background-color: #000000;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.text1:hover {
+    display: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: aqua;
+    color: #000000;
 }
 .text1 .border{
     color: #fff;
@@ -264,13 +305,26 @@ body, html{
 }
 .text2{
     position: absolute;
-    top: 50%;
-    width: 100%;
+    display: block;
+    align-items: center;
+    top: 49%;
+    margin-left: 42%;
     text-align: center;
     color: black;
     font-size: 27px;
-    letter-spacing: 8px;
-    text-transform: uppercase;
+    letter-spacing: 3px;
+    text-transform: uppercase; 
+    background-color: #000000;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.text2:hover {
+    display: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: aqua;
+    color: #000000;
 }
 
 .text2 .border{

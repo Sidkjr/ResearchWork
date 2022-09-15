@@ -1,6 +1,23 @@
+#right-quote-b {
+    font-size: xx-large;
+}
+
+#right-quote-w {
+    font-size: xx-large;
+}
+.slide-container1 {
+    width: 512px;
+    height: 360px;
+    margin-left: auto;
+    margin-right: auto;
+    overflow: hidden;
+    text-align: center;
+    border: 12px solid aqua;
+}
+
 .slide-container {
-    width: 600px;
-    height: 366px;
+    width: 512px;
+    height: 360px;
     margin-left: auto;
     margin-right: auto;
     overflow: hidden;
@@ -11,8 +28,8 @@
     display: flex;
     flex-direction: row;
     align-items: center;
-    width: 600px;
-    height: 366px;
+    width: 512px;
+    height: 360px;
     position: relative;
     transition: left 2s;
     -webkit-transition: left 2s;
@@ -53,12 +70,64 @@
 #mal-slider-image-5:target ~ .mal-container {
     left: -400%;
 }
+.bali-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 512px;
+    height: 360px;
+    position: relative;
+    transition: left 2s;
+    -webkit-transition: left 2s;
+    -o-transition: left 2s;
+}
+.balii-slider-image {
+    float: left;
+    margin: 0px;
+    padding: 0px;
+}
+.button-container {
+    top: -30px;
+    position: relative;
+}
+.bali-slider-button {
+    display: inline-block;
+    height: 20px;
+    width: 20px;
+    border-radius: 10px;
+    background-color: white;
+    border: 1px solid grey;
+    
+}
+
+.bali-slider-button:nth-child(
+) {
+    justify-content: space-between;
+}
+.bali-slider-button:hover {
+    background-color: aqua;
+}
+#bali-slider-image-1:target ~ .bali-container {
+    left: 0px;
+}
+#bali-slider-image-2:target ~ .bali-container {
+    left: -100%;
+}
+#bali-slider-image-3:target ~ .bali-container {
+    left: -200%;
+}
+#bali-slider-image-4:target ~ .bali-container {
+    left: -300%;
+}
+#bali-slider-image-5:target ~ .bali-container {
+    left: -400%;
+}
 .thai-container {
     display: flex;
     flex-direction: row;
     align-items: center;
-    width: 600px;
-    height: 366px;
+    width: 512px;
+    height: 360px;
     position: relative;
     transition: left 2s;
     -webkit-transition: left 2s;
@@ -103,5 +172,164 @@
     left: -300%;
 }
 #thai-slider-image-5:target ~ .thai-container {
+    left: -400%;
+}
+
+.uk-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 512px;
+    height: 360px;
+    position: relative;
+    transition: left 2s;
+    -webkit-transition: left 2s;
+    -o-transition: left 2s;
+}
+.uk-slider-image {
+    float: left;
+    margin: 0px;
+    padding: 0px;
+}
+.button-container {
+    top: -30px;
+    position: relative;
+}
+.uk-slider-button {
+    display: inline-block;
+    height: 20px;
+    width: 20px;
+    border-radius: 10px;
+    background-color: white;
+    border: 1px solid grey;
+    
+}
+
+.uk-slider-button:nth-child(
+) {
+    justify-content: space-between;
+}
+.uk-slider-button:hover {
+    background-color: aqua;
+}
+#uk-slider-image-1:target ~ .uk-container {
+    left: 0px;
+}
+#uk-slider-image-2:target ~ .uk-container {
+    left: -100%;
+}
+#uk-slider-image-3:target ~ .uk-container {
+    left: -200%;
+}
+#uk-slider-image-4:target ~ .uk-container {
+    left: -300%;
+}
+#uk-slider-image-5:target ~ .uk-container {
+    left: -400%;
+}
+
+.swiss-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 512px;
+    height: 360px;
+    position: relative;
+    transition: left 2s;
+    -webkit-transition: left 2s;
+    -o-transition: left 2s;
+}
+.swiss-slider-image {
+    float: left;
+    margin: 0px;
+    padding: 0px;
+}
+.button-container {
+    top: -30px;
+    position: relative;
+}
+.swiss-slider-button {
+    display: inline-block;
+    height: 20px;
+    width: 20px;
+    border-radius: 10px;
+    background-color: white;
+    border: 1px solid grey;
+    
+}
+
+.swiss-slider-button:nth-child(
+) {
+    justify-content: space-between;
+}
+.swiss-slider-button:hover {
+    background-color: aqua;
+}
+#swiss-slider-image-1:target ~ .swiss-container {
+    left: 0px;
+}
+#swiss-slider-image-2:target ~ .swiss-container {
+    left: -100%;
+}
+#swiss-slider-image-3:target ~ .swiss-container {
+    left: -200%;
+}
+#swiss-slider-image-4:target ~ .swiss-container {
+    left: -300%;
+}
+#swiss-slider-image-5:target ~ .swiss-container {
+    left: -400%;
+}
+
+.net-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 512px;
+    height: 360px;
+    position: relative;
+    transition: left 2s;
+    -webkit-transition: left 2s;
+    -o-transition: left 2s;
+}
+.net-slider-image {
+    float: left;
+    margin: 0px;
+    padding: 0px;
+}
+.button-container {
+    top: -30px;
+    position: relative;
+}
+.net-slider-button {
+    display: inline-block;
+    height: 20px;
+    width: 20px;
+    border-radius: 10px;
+    background-color: white;
+    border: 1px solid grey;
+    
+}
+
+.net-slider-button:nth-child(
+) {
+    justify-content: space-between;
+}
+.net-slider-button:hover {
+    background-color: aqua;
+}
+#net-slider-image-1:target ~ .net-container {
+    left: 0px;
+}
+#net-slider-image-2:target ~ .net-container {
+    left: -100%;
+}
+#net-slider-image-3:target ~ .net-container {
+    left: -200%;
+}
+#net-slider-image-4:target ~ .net-container {
+    left: -300%;
+}
+#net-slider-image-5:target ~ .net-container {
     left: -400%;
 }

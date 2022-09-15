@@ -113,40 +113,40 @@ body, html{
 
 }
 .bg1{
-    background-image: url('/home/sid/Desktop/Siddhant/SecondYear/Wp/Unit1/Rw/assets/images/europe.jpg');
+    background-image: url('assets/images/europe.jpg');
     min-height: 100%;
 }
 
 
 .bg2{
-    background-image: url('/home/sid/Desktop/Siddhant/SecondYear/Wp/Unit1/Rw/assets/images/asia.jpg');
+    background-image: url('assets/images/asia.jpg');
     min-height: 100%;
 }
 
 .bg3{
-    background-image: url('/home/sid/Desktop/Siddhant/SecondYear/Wp/Unit1/Rw/assets/images/africa.jpg');
+    background-image: url('assets/images/africa.jpg');
     min-height: 100%;
 }
 
 .bg4{
-    background-image: url('/home/sid/Desktop/Siddhant/SecondYear/Wp/Unit1/Rw/assets/images/australia.jpg');
+    background-image: url('assets/images/australia.jpg');
     min-height: 100%;
 }
 
 .bg5{
-    background-image: url('/home/sid/Desktop/Siddhant/SecondYear/Wp/Unit1/Rw/assets/images/northamerica.jpg');
+    background-image: url('assets/images/northamerica.jpg');
     min-height: 100%;
 }
 
 .bg6{
-    background-image: url('/home/sid/Desktop/Siddhant/SecondYear/Wp/Unit1/Rw/assets/images/southamerica.jpg');
+    background-image: url('assets/images/southamerica.jpg');
     min-height: 100%;
 }
 
 .light1{
     text-align: center;
     padding: 20px;
-    background: url("/home/sid/Desktop/Siddhant/SecondYear/Wp/Unit1/Rw/assets/images/bg1destination.jpg") rgba(0, 0, 0, 0.7);
+    background: url("assets/images/bg1destination.jpg") rgba(0, 0, 0, 0.7);
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
@@ -157,7 +157,7 @@ body, html{
 .light2{
     text-align: center;
     padding: 20px;
-    background: url("/home/sid/Desktop/Siddhant/SecondYear/Wp/Unit1/Rw/assets/images/bg2destination.webp") rgba(0, 0, 0, 0.7);
+    background: url("assets/images/bg2destination.webp") rgba(0, 0, 0, 0.7);
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
@@ -168,7 +168,7 @@ body, html{
 .light3{
     text-align: center;
     padding: 20px;
-    background: url("/home/sid/Desktop/Siddhant/SecondYear/Wp/Unit1/Rw/assets/images/bg3destination.jpg") rgba(0, 0, 0, 0.7);
+    background: url("assets/images/bg3destination.jpg") rgba(0, 0, 0, 0.7);
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
@@ -179,7 +179,7 @@ body, html{
 .light4{
     text-align: center;
     padding: 20px;
-    background: url("/home/sid/Desktop/Siddhant/SecondYear/Wp/Unit1/Rw/assets/images/bg4destination.jpg") rgba(0, 0, 0, 0.7);
+    background: url("assets/images/bg4destination.jpg") rgba(0, 0, 0, 0.7);
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
@@ -190,7 +190,7 @@ body, html{
 .light5{
     text-align: center;
     padding: 20px;
-    background: url("/home/sid/Desktop/Siddhant/SecondYear/Wp/Unit1/Rw/assets/images/bg5destination.jpg") rgba(0, 0, 0, 0.7);
+    background: url("assets/images/bg5destination.jpg") rgba(0, 0, 0, 0.7);
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
@@ -201,7 +201,7 @@ body, html{
 .light6{
     text-align: center;
     padding: 20px;
-    background: url("/home/sid/Desktop/Siddhant/SecondYear/Wp/Unit1/Rw/assets/images/bg6destination.jpg") rgba(0, 0, 0, 0.7);
+    background: url("assets/images/bg6destination.jpg") rgba(0, 0, 0, 0.7);
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;

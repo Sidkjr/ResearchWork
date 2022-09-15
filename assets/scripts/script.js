@@ -37,61 +37,40 @@ const signbutton = document.querySelector(".signbutt");
     });
 
     function validate_form() {
-        var name = document.forms["RegForm"]["Fullname"];
-        var lname = document.forms["RegForm"]["LName"];
-        var mname = document.forms["RegForm"]["MName"];
+        var fullname = document.form["Regform"]["Fullname"];
         var email = document.forms["RegForm"]["Email"];
-        var phone = document.forms["RegForm"]["Phone"];
-        var sid = document.forms["RegForm"]["Sid"];
-        var dropdown = document.forms["RegForms"]["Dropdown"]
+        var password = document.forms["RegForm"]["password"];
+        var conf_password = document.forms["RegForm"]["conf_password"];
 
-        if (name.value == "") {
+        if (fullname.value == "") {
             window.alert("Please enter your First name: ");
             fname.focus();
             return false;
         }
 
-        if (lname.value == "") {
-            window.alert("Please enter your Last name: ");
-            lname.focus();
-            return false;
-        }
-        if (mname.value == "") {
-            window.alert("Please enter your Middle name: ");
-            mname.focus();
-            return false;
-        }
-
-        if (email.value == "") {
-            window.alert("Please enter a valid Email Address: ");
-            email.focus();
-            return false;
-        }
         if (email.value.indexOf("@", 0) < 0) {
             window.alert("Please enter a valid Email Address: ");
             email.focus();
             return false;
         }
+        
         if (email.value.indexOf(".", 0) < 0) {
             window.alert("Please enter a valid Email Address: ");
             email.focus();
             return false;
         }
-        if (phone.value == "") {
-            window.alert("Please enter a valid Phone: ");
-            phone.focus();
+
+
+        if (password.value == "") {
+            window.alert("Please enter your First name: ");
+            fname.focus();
             return false;
         }
-        if (sid.value == "") {
-            window.alert("Please enter your SID No. : ");
-            sid.focus();
+
+        if (conf_password.value == "") {
+            window.alert("Please enter your First name: ");
+            fname.focus();
             return false;
         }
-        if (dropdown.selectedIndex < 1) {
-            window.alert("Please select a stream: ");
-            dropdown.focus();
-            return false;
-        }
-        return true;
 
     }

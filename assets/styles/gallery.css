@@ -33,7 +33,7 @@
     width: 20px;
     border-radius: 10px;
     background-color: white;
-    border: 3px solid grey;
+    border: 1px solid grey;
 }
 .mal-slider-button:hover {
     background-color: aqua;
